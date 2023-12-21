@@ -18,7 +18,7 @@ cp .env.example .env
 # make sure you already set your database connection correctly on .env file
 php artisan migrate:refresh --seed
 
-# run additional dev pakage from npm
+# run additional dev pakage from npm (run on separated terminal)
 npm run dev
 
 # run laravel project
